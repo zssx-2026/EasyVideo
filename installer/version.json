@@ -1,0 +1,95 @@
+{
+  "app": "EasyVideo",
+  "version": "1.0.0-pre1",
+  "label": "v1.0.0pre1",
+  "builtAt": "2026-09-26T04:18:05.848Z",
+  "port": 13750,
+  "executable": "app/EasyVideo.exe",
+  "dataDir": "data",
+  "logDir": "log",
+  "programDir": "program",
+  "pluginsDir": "program/plugins",
+  "sourceDir": "sourcecode",
+  "protocols": [
+    "ev"
+  ],
+  "transport": [
+    "SERVER",
+    "P2P",
+    "BT"
+  ],
+  "flags": [
+    {
+      "flag": "-b",
+      "meaning": "后台启动，不打开浏览器"
+    },
+    {
+      "flag": "-br",
+      "meaning": "后台启动，延迟后打开界面"
+    },
+    {
+      "flag": "-nob",
+      "meaning": "启动但不打开浏览器"
+    }
+  ],
+  "components": [
+    "7zip",
+    "aria2",
+    "ffmpeg",
+    "node",
+    "plugins",
+    "zstd"
+  ],
+  "files": [
+    {
+      "rel": "app/EasyVideo.exe",
+      "sha256": "3a3cb2f7d750e754eee91a61267037e1ae9ce993d52306f75ddf5998e73457b4",
+      "bytes": 93818368
+    },
+    {
+      "rel": "app/README.txt",
+      "sha256": "1fc7539f9237f4a5169ad2abfb0d1e92066f670e017f5860dfb0ac379e66ce99",
+      "bytes": 700
+    },
+    {
+      "rel": "bin/ev.cmd",
+      "sha256": "b451d934e227121b240aa80d33b4ab495946f1d91e2200965854057bd0104a08",
+      "bytes": 173
+    },
+    {
+      "rel": "program/7zip/7za.exe",
+      "sha256": "b0cfdeaf429f5cc53f85123dd8f5a5feb92c19d31aa34df257edf9a26be05f95",
+      "bytes": 1231360
+    },
+    {
+      "rel": "program/aria2/aria2c.exe",
+      "sha256": "be2099c214f63a3cb4954b09a0becd6e2e34660b886d4c898d260febfe9d70c2",
+      "bytes": 5649408
+    },
+    {
+      "rel": "program/ffmpeg/ffmpeg.exe",
+      "sha256": "70bf2b95c47336bcf73db922e9e1cb684aa65563f42cd49499cffd74045a1b19",
+      "bytes": 143458304
+    },
+    {
+      "rel": "program/ffmpeg/ffprobe.exe",
+      "sha256": "7bb7646d0a684669f465e46b25882f581c71aa6295bda12d10949f8e0812395a",
+      "bytes": 143260160
+    },
+    {
+      "rel": "program/node/node.exe",
+      "sha256": "7447c4ece014aa41fb2ff866c993c708e5a8213a00913cc2ac5049ea3ffc230d",
+      "bytes": 80511640
+    },
+    {
+      "rel": "program/plugins/demo.evp",
+      "sha256": "afe4fbfce3a1ca97e388e4a3c295abb2dec3d7d1c1715dd1291347840bfaf069",
+      "bytes": 113
+    },
+    {
+      "rel": "program/zstd/zstd.exe",
+      "sha256": "6b5c50dde7062909b69b618fae228c72090596dc254efe498fb426f5f430a1f9",
+      "bytes": 1560744
+    }
+  ]
+}

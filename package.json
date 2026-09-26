@@ -1,0 +1,27 @@
+{
+  "name": "easyvideo",
+  "version": "1.0.0-pre1",
+  "private": true,
+  "description": "EasyVideo — P2P/BT live streaming & video app",
+  "type": "module",
+  "main": "src/server/main.js",
+  "scripts": {
+    "start": "node src/server/main.js",
+    "assets": "node tools/gen-assets.mjs",
+    "build": "node build.mjs",
+    "package": "node tools/package.mjs",
+    "release": "node build.mjs && node tools/package.mjs",
+    "icons": "node tools/gen-icons.mjs",
+    "doctor": "node tools/doctor.mjs",
+    "dev": "node src/server/main.js --dev --no-window"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12",
+    "postject": "^1.0.0-alpha.6",
+    "rcedit": "^5.0.1",
+    "sharp": "^0.35.4"
+  }
+}

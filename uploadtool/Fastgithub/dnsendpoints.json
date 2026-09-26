@@ -1,0 +1,266 @@
+[
+  {
+    "host": "app.vssps.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "avatars.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "api.nuget.org",
+    "port": 443
+  },
+  {
+    "host": "media.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "yelonhu.github.io",
+    "port": 443
+  },
+  {
+    "host": "central.github.com",
+    "port": 443
+  },
+  {
+    "host": "ajax.aspnetcdn.com",
+    "port": 443
+  },
+  {
+    "host": "api.github.com",
+    "port": 443
+  },
+  {
+    "host": "repository-images.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "user-images.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "shared.steamstatic.com",
+    "port": 443
+  },
+  {
+    "host": "search.maven.org",
+    "port": 443
+  },
+  {
+    "host": "steamcommunity.com",
+    "port": 443
+  },
+  {
+    "host": "xpaywalletcdn-prod.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "zetaloop.github.io",
+    "port": 443
+  },
+  {
+    "host": "microsoft.github.io",
+    "port": 443
+  },
+  {
+    "host": "github-production-user-asset-6210df.s3.amazonaws.com",
+    "port": 443
+  },
+  {
+    "host": "raw.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "peazip.github.io",
+    "port": 443
+  },
+  {
+    "host": "westus2-0.in.applicationinsights.azure.com",
+    "port": 443
+  },
+  {
+    "host": "westus-0.in.applicationinsights.azure.com",
+    "port": 443
+  },
+  {
+    "host": "sendvsfeedback2.azurewebsites.net",
+    "port": 443
+  },
+  {
+    "host": "update.code.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "c2rsetup.officeapps.live.com",
+    "port": 443
+  },
+  {
+    "host": "outlook.live.com",
+    "port": 443
+  },
+  {
+    "host": "cdnjs.cloudflare.com",
+    "port": 443
+  },
+  {
+    "host": "0d00no0721.github.io",
+    "port": 443
+  },
+  {
+    "host": "dc.services.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "login.live.com",
+    "port": 443
+  },
+  {
+    "host": "copilot-telemetry.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "github.githubassets.com",
+    "port": 443
+  },
+  {
+    "host": "az416426.vo.msecnd.net",
+    "port": 443
+  },
+  {
+    "host": "static2.sharepointonline.com",
+    "port": 443
+  },
+  {
+    "host": "fonts.geekzu.org",
+    "port": 443
+  },
+  {
+    "host": "stepfun-ai.github.io",
+    "port": 443
+  },
+  {
+    "host": "camo.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "repo1.maven.org",
+    "port": 443
+  },
+  {
+    "host": "api.steampowered.com",
+    "port": 443
+  },
+  {
+    "host": "private-user-images.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "objects.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "account.live.com",
+    "port": 443
+  },
+  {
+    "host": "dotnetcli.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "alive.github.com",
+    "port": 443
+  },
+  {
+    "host": "edge-consumer-static.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "dev.ditu.live.com",
+    "port": 443
+  },
+  {
+    "host": "storage.live.com",
+    "port": 443
+  },
+  {
+    "host": "education.github.com",
+    "port": 443
+  },
+  {
+    "host": "odc.officeapps.live.com",
+    "port": 443
+  },
+  {
+    "host": "c.live.com",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 22
+  },
+  {
+    "host": "mrodevicemgr.officeapps.live.com",
+    "port": 443
+  },
+  {
+    "host": "clientconfig.akamai.steamstatic.com",
+    "port": 80
+  },
+  {
+    "host": "collector.github.com",
+    "port": 443
+  },
+  {
+    "host": "code.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "keyeh.github.io",
+    "port": 443
+  },
+  {
+    "host": "codeload.github.com",
+    "port": 443
+  },
+  {
+    "host": "login.microsoftonline.com",
+    "port": 443
+  },
+  {
+    "host": "spsprodsea1.vssps.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "challenges.cloudflare.com",
+    "port": 443
+  },
+  {
+    "host": "marketplace.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "csp-reporting.cloudflare.com",
+    "port": 443
+  },
+  {
+    "host": "js.monitor.azure.com",
+    "port": 443
+  },
+  {
+    "host": "desktop.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "release-assets.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 443
+  },
+  {
+    "host": "explore-feed.github.com",
+    "port": 443
+  }
+]

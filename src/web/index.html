@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="EasyVideo - 直播与视频桌面应用">
+<title>EasyVideo · 放映室</title>
+<link rel="icon" href="/assets/img/icon-32.png" sizes="32x32">
+<link rel="icon" href="/assets/img/icon-256.png" sizes="256x256">
+<link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<!-- The shell is static markup; every view is rendered into #view by js/app.js.
+     The icon sprite is injected once at boot by ui.js (see loadIcons). -->
+<div id="shell">
+  <nav id="rail" aria-label="主导航">
+    <div class="rail-mark">
+      <span class="mark-glyph" id="rail-mark-glyph"></span>
+      <span class="mark-name">EasyVideo</span>
+    </div>
+    <div class="rail-nav" id="rail-nav" role="tablist" aria-orientation="vertical"></div>
+    <div class="rail-spacer"></div>
+    <div class="rail-foot" id="rail-foot"></div>
+  </nav>
+
+  <div id="main">
+    <header id="topbar">
+      <div class="topbar-title">
+        <h1 id="page-title">首页</h1>
+        <p class="crumb" id="page-crumb">EasyVideo</p>
+      </div>
+      <form class="topbar-search" id="global-search" role="search">
+        <label class="sr-only" for="global-q">全局搜索</label>
+        <input class="input" id="global-q" type="search" placeholder="搜索直播 / 视频" autocomplete="off">
+        <button class="btn btn-ember-ghost" type="submit" id="global-go" aria-label="搜索"><span>搜索</span></button>
+      </form>
+      <div class="topbar-tools" id="topbar-tools"></div>
+    </header>
+
+    <main id="view" tabindex="-1" aria-live="polite">
+      <div class="sk-block" style="padding:20px">
+        <div class="sk-line w40"></div>
+        <div class="sk-line w70"></div>
+        <div class="sk-line w90"></div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<noscript>
+  <p style="padding:24px;font-family:system-ui">EasyVideo 需要启用 JavaScript 才能运行。</p>
+</noscript>
+
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

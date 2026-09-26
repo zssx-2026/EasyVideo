@@ -1,0 +1,31 @@
+# 构建产物：可执行文件与安装包
+app/
+dist/
+installer/build/
+installer/*.exe
+
+# 自带组件：体积大，由 tools/fetch-components.mjs 获取
+program/*/
+!program/plugins/
+
+# 运行期数据
+data/
+log/
+temp/
+
+# 构建中间产物
+build/
+*.log
+
+# 依赖
+node_modules/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 密钥：绝不入库
+.env
+*.pem
+*.pfx
